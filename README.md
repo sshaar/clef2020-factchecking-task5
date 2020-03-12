@@ -170,6 +170,8 @@ Task 5 Organizers:
 
 * Giovanni Da San Martino, Qatar Computing Research Institute, HBKU <br/>
 
+* Pepa Atanasova, University of Copenhagen <br/>
+
 * Preslav Nakov, Qatar Computing Research Institute, HBKU <br/>
 
 Task website: https://sites.google.com/view/clef2020-checkthat/
