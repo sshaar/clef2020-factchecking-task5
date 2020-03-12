@@ -1,7 +1,7 @@
 # CLEF2020-CheckThat! Task 5
 This repository contains the _dataset_ for the [CLEF2020-CheckThat! task 5](https://sites.google.com/view/clef2020-checkthat/).
 
-For information about the previous edition of the shared task, refer to [CLEF2018-CheckThat!](http://alt.qcri.org/clef2019-factcheck/)
+For information about the previous edition of the shared task, refer to [CLEF2019-CheckThat!](http://alt.qcri.org/clef2019-factcheck/) and [CLEF2018-CheckThat!](http://alt.qcri.org/clef2018-factcheck/).
 
 It also contains the _format checker, scorer and baselines_ for the task.
 
@@ -36,6 +36,7 @@ __Table of contents:__
 
 ## Evaluation Results
 
+Yet to be released.
 
 ## List of Versions
 
@@ -57,7 +58,7 @@ We provide the following files:
   - [working_notes/clef19_checkthat.bib](working_notes/clef19_checkthat.bib) - Bibliography of 2019 overview and participants' papers.
   - [working_notes/clef18_checkthat.bib](working_notes/clef18_checkthat.bib) - Bibliography of 2018 overview and participants' papers.
   
-## Subtask 5 : __Check-Worthiness__. 
+## Subtask 5 : __Debate Check-Worthiness__. 
 
 Predict which claim in a political debate should be prioritized for fact-checking. In particular, given a debate, speech or a press conference the goal is to produce a ranked list of its sentences based on their worthiness for fact checking.
 
@@ -70,7 +71,7 @@ The datasets are text files with the information TAB separated. The text encodin
 > line_number <TAB> speaker <TAB> text <TAB> label
 
 Where: <br>
-* line_no: the line number (starting from 1) <br/>
+* line_number: the line number (starting from 1) <br/>
 * speaker: the person speaking (a candidate, the moderator, or "SYSTEM"; the latter is used for the audience reaction) <br/>
 * text: a sentence that the speaker said <br/>
 * label: 1 if this sentence is to be fact-checked, and 0 otherwise 
@@ -140,7 +141,7 @@ They also handle checking if the provided predictions file contains all lines / 
 ### Evaluation metrics
 
 For Task 5 (ranking): R-Precision, Average Precision, Recipocal Rank, Precision@k and means of these over multiple debates.
-**The official metric for task1, that will be used for the competition ranking is the Mean Average Precision (MAP)**
+**The official metric for task5, that will be used for the competition ranking is the Mean Average Precision (MAP)**
 
 ## Baselines
 
@@ -154,7 +155,7 @@ The performance of both baselines will be displayed.
   These datasets are free for general research use.
 
 ## Citation ?
-* If you want to cite any of the papers from the previous edition of the task, refer to this file [working_notes/clef18_checkthat.bib](working_notes/clef18_checkthat.bib). [[PROCEEDINGS WITH ALL PAPERS from 2018]](http://ceur-ws.org/Vol-2125/) or [working_notes/clef18_checkthat.bib](working_notes/clef19_checkthat.bib). [[PROCEEDINGS WITH ALL PAPERS from 2019]](http://ceur-ws.org/Vol-2125/)
+* If you want to cite any of the papers from the previous edition of the task, refer to this file [working_notes/clef18_checkthat.bib](working_notes/clef18_checkthat.bib). [[PROCEEDINGS WITH ALL PAPERS from 2018]](http://ceur-ws.org/Vol-2125/) or [working_notes/clef19_checkthat.bib](working_notes/clef19_checkthat.bib). [[PROCEEDINGS WITH ALL PAPERS from 2019]](http://ceur-ws.org/Vol-2125/)
 
 
 ## Credits
