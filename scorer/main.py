@@ -2,6 +2,9 @@ import logging
 import argparse
 import os
 
+import sys
+sys.path.append('.')
+
 from format_checker.main import check_format
 """
 Scoring of Task 5 with the metrics Average Precision, R-Precision, P@N, RR@N. 

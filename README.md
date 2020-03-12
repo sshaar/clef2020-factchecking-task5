@@ -36,7 +36,7 @@ __Table of contents:__
 
 ## Evaluation Results
 
-Yet to be released.
+TBA
 
 ## List of Versions
 
@@ -144,6 +144,10 @@ For Task 5 (ranking): R-Precision, Average Precision, Recipocal Rank, Precision@
 **The official metric for task5, that will be used for the competition ranking is the Mean Average Precision (MAP)**
 
 ## Baselines
+
+To launch the baseline script use the following:
+
+> python3 baselines/baselines.py  <br/>
 
 The [baselines](/baselines) module contains a random and a simple ngram baseline for the task.
 
