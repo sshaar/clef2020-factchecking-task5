@@ -1,0 +1,16 @@
+======= Task 1 OK: Running the format checker with correct output.
+INFO : Task 1: Checking file: /Users/pzg477/git/clef2019-factchecking-task1/format_checker/data/task1_OK.txt
+INFO : Task 1: File passed the format checks.
+=======
+======= Task 1 NOT OK: Running the format checker with some missing line_numbers.
+INFO : Task 1: Checking file: /Users/pzg477/git/clef2019-factchecking-task1/format_checker/data/task1_NOTOK_MISSING_ID.txt
+ERROR : Problem with line_number: 1037. They should be consecutive and starting from 1.
+=======
+======= Task 1 NOT OK: Running the format checker where the provided list of line_numbers contains duplicates.
+INFO : Task 1: Checking file: /Users/pzg477/git/clef2019-factchecking-task1/format_checker/data/task1_NOTOK_DUP_LINE_NUM.txt
+ERROR : Problem with line_number: 1147. They should be consecutive and starting from 1.
+=======
+======= Task 1 NOT OK: Running the format checker where the line_numbers start from 0
+INFO : Task 1: Checking file: /Users/pzg477/git/clef2019-factchecking-task1/format_checker/data/task1_NOTOK_0.txt
+ERROR : Wrong line format: 0	0.9056396761745207
+=======
