@@ -158,14 +158,19 @@ The performance of both baselines will be displayed.
 
   These datasets are free for general research use.
 
-## Citation ?
+## Citation
 * If you want to cite any of the papers from the previous edition of the task, refer to this file [working_notes/clef18_checkthat.bib](working_notes/clef18_checkthat.bib). [[PROCEEDINGS WITH ALL PAPERS from 2018]](http://ceur-ws.org/Vol-2125/) or [working_notes/clef19_checkthat.bib](working_notes/clef19_checkthat.bib). [[PROCEEDINGS WITH ALL PAPERS from 2019]](http://ceur-ws.org/Vol-2125/)
 
 
 ## Credits
 
-Lab Organizers?:
+Task 5 Organizers:
 
+* Shaden Shaar, Qatar Computing Research Institute, HBKU <br/>
+
+* Giovanni Da San Martino, Qatar Computing Research Institute, HBKU <br/>
+
+* Preslav Nakov, Qatar Computing Research Institute, HBKU <br/>
 
 Task website: https://sites.google.com/view/clef2020-checkthat/
 **The official rules are published on the website, check them!**
