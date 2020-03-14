@@ -40,7 +40,7 @@ TBA
 
 ## List of Versions
 
-* __v1.0 [2020/03/?]__ -  TRIAL data. The training data for task 5 contains 50 fact-checked documents - debates, speeches, press conferences, etc, analysed by politifact.com. 
+* __v1.0 [2020/03/?]__ -  data. The training data for task 5 contains 50 fact-checked documents - debates, speeches, press conferences, etc, analysed by politifact.com. 
 
 ## Contents of the Distribution v1.0
 
@@ -50,10 +50,8 @@ We provide the following files:
   - Subfolder [/training](data/training) <br/>
    Contains all training data released with the version 1.0
 
-  * [README.md](README.md) <br/>
+  - [README.md](README.md) <br/>
     this file
-  
-  - [clef18.bib](clef18.bib) - Bibliography of the overview papers from CLEF-2018 Shared task.
   
   - [working_notes/clef19_checkthat.bib](working_notes/clef19_checkthat.bib) - Bibliography of 2019 overview and participants' papers.
   - [working_notes/clef18_checkthat.bib](working_notes/clef18_checkthat.bib) - Bibliography of 2018 overview and participants' papers.
@@ -175,7 +173,6 @@ Task 5 Organizers:
 * Preslav Nakov, Qatar Computing Research Institute, HBKU <br/>
 
 Task website: https://sites.google.com/view/clef2020-checkthat/
-**The official rules are published on the website, check them!**
 
 Contact:   clef-factcheck@googlegroups.com
 
