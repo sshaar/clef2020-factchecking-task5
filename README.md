@@ -1,5 +1,5 @@
 # CLEF2020-CheckThat! Task 5
-This repository contains the _dataset_ for the [CLEF2020-CheckThat! task 5](https://sites.google.com/view/clef2020-checkthat/).
+This repository contains the _dataset_ for the [CLEF2020-CheckThat! task 5](https://sites.google.com/view/clef2020-checkthat/tasks/tasks-1-5-check-worthiness?authuser=0).
 
 For information about the previous edition of the shared task, refer to [CLEF2019-CheckThat!](http://alt.qcri.org/clef2019-factcheck/) and [CLEF2018-CheckThat!](http://alt.qcri.org/clef2018-factcheck/).
 
@@ -13,7 +13,7 @@ Version 1.0: March ?, 2020 (Data and Baseline Resealse)
 This file contains the basic information regarding the CLEF2020-CheckThat! Task 5
 on Check-Worthiness estimation dataset provided for the CLEF2020-CheckThat Lab
 on "Automatic Identification and Verification of Claims".
-The current TRIAL version (1.0, March ?, 2020) corresponds to the release of a 
+The current version (1.0, March ?, 2020) corresponds to the release of a 
 part of the training data set.
 The test set will be provided in future versions.
 All changes and updates on these data sets and tools are reported in Section 1 of this document.
@@ -172,7 +172,7 @@ Task 5 Organizers:
 
 * Preslav Nakov, Qatar Computing Research Institute, HBKU <br/>
 
-Task website: https://sites.google.com/view/clef2020-checkthat/
+Task website: https://sites.google.com/view/clef2020-checkthat/tasks/tasks-1-5-check-worthiness?authuser=0
 
 Contact:   clef-factcheck@googlegroups.com
 
