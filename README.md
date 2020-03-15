@@ -143,14 +143,15 @@ For Task 5 (ranking): R-Precision, Average Precision, Recipocal Rank, Precision@
 
 ## Baselines
 
+The [baselines](/baselines) module contains a random and a simple ngram baseline for the task.
 To launch the baseline script use the following:
 
 > python3 baselines/baselines.py  <br/>
 
-The [baselines](/baselines) module contains a random and a simple ngram baseline for the task.
-
-If you execute baseline.py, both of the baselines will be trained on all but the latest 20% of the debates as they are used as the dev dataset.
-The performance of both baselines will be displayed.
+Both of the baselines will be trained on all but the latest 20% of the debates as they are used as the dev dataset.
+The performance of both baselines will be displayed:
+Random Baseline AVGP: 0.02098366142405398
+Ngram Baseline AVGP: 0.09456735615609717
 
 ## Licensing
 
