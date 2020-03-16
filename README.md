@@ -1,7 +1,7 @@
 # CLEF2020-CheckThat! Task 5
 This repository contains the _dataset_ for the [CLEF2020-CheckThat! task 5](https://sites.google.com/view/clef2020-checkthat/tasks/tasks-1-5-check-worthiness?authuser=0).
 
-For information about the previous edition of the shared task, refer to [CLEF2019-CheckThat!](http://alt.qcri.org/clef2019-factcheck/) and [CLEF2018-CheckThat!](http://alt.qcri.org/clef2018-factcheck/).
+For information about the previous edition of the shared task, refer to [CLEF2019-CheckThat!](https://sites.google.com/view/clef2019-checkthat/task-1-check-worthiness?authuser=0) and [CLEF2018-CheckThat!](http://alt.qcri.org/clef2018-factcheck/).
 
 It also contains the _format checker, scorer and baselines_ for the task.
 
