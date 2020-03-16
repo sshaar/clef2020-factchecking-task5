@@ -16,12 +16,13 @@ __Table of contents:__
 * [Task Description](#task-description)
 * [Data Format](#data-format)
 * [Results File Format](#results-file-format)
-* [Format checkers](#format-checkers)
-* [Scorers](#scorers)
+* [Format checker](#format-checker)
+* [Scorer](#scorer)
    * [Evaluation metrics](#evaluation-metrics)
 * [Baselines](#baselines)
 * [Licensing](#licensing)
 * [Citation](#citation)
+* [Previos Editions](#previous-editions)
 * [Credits](#credits)
 
 ## Evaluation Results
@@ -103,7 +104,7 @@ Where _line_number_ is the number of the claim in the debate and _score_ is a nu
 Your result file **MUST contain scores for all lines** of the input file.
 Otherwise the scorer will return an error and no score will be computed. 
 
-## Format checkers
+## Format checker
 
 The checker for the subtask is located in the [format_checker](format_checker) module of the project.
 The format checker verifies that your generated results file complies with the expected format.
@@ -114,27 +115,27 @@ To launch it run:
 Its output can be seen in [run_format_checker_out.txt](format_checker/run_format_checker_out.txt). 
 Note that the checker can not verify whether the prediction file you submit contain all lines / claims), because it does not have access to the corresponding gold file.
 
-The scripts used are obtained from CLEF2019 Check That! Lab Task 1 (check-worthiness) found in this [repo](https://github.com/apepa/clef2019-factchecking-task1).
+The script used is adapted from the one for the CLEF2019 Check That! Lab Task 1 (check-worthiness) found in this [repo](https://github.com/apepa/clef2019-factchecking-task1).
 
-## Scorers 
+## Scorer 
 
-Launch the scorers for the task as follows:
+Launch the scorer for the task as follows:
 > python3 scorer/main.py --gold_file_path="<path_gold_file_1, path_to_gold_file_k>" --pred_file_path="<predictions_file_1, predictions_file_k>" <br/>
 
 Both `--gold_file_path` and `--pred_file_path` take a single string that contains a comma separated list of file paths. The lists may be of arbitraty positive length (so even a single file path is OK) but their lengths must match.
 
 __<path_to_gold_file_n>__ is the path to the file containing the gold annotations for debate __n__ and __<predictions_file_n>__ is the path to the corresponding file with participants' predictions for debate __n__, which must follow the format, described in the 'Results File Format' section.
 
-The scorers invoke the format checkers for the task to verify the output is properly shaped.
-They also handle checking if the provided predictions file contains all lines / claims from the gold one.
+The scorer invokes the format checker for the task to verify the output is properly shaped.
+It also handles checking if the provided predictions file contains all lines / claims from the gold one.
 
 `run_scorer.sh` provides examples on using the scorers and the results can be viewed in the [run_scorer_out.txt](scorer/run_scorer_out.txt) file.
 
-The scripts used are obtained from CLEF2019 Check That! Lab Task 1 (check-worthiness) found in this [repo](https://github.com/apepa/clef2019-factchecking-task1).
+The script used is adapted from the one for the CLEF2019 Check That! Lab Task 1 (check-worthiness) found in this [repo](https://github.com/apepa/clef2019-factchecking-task1).
 
 ### Evaluation metrics
 
-**The official metric for task5, that will be used for the competition ranking is the Mean Average Precision (MAP)**. 
+**The official metric for task5, that will be used for the competition ranking, is the Mean Average Precision (MAP)**. 
 We also report R-Precision, Average Precision, Recipocal Rank, Precision@k and means of these over multiple debates.
 
 ## Baselines
@@ -149,7 +150,7 @@ The performance of both baselines will be displayed:<br/>
 Random Baseline AVGP: 0.02098366142405398<br/>
 Ngram Baseline AVGP: 0.09456735615609717<br/>
 
-The scripts used are obtained from CLEF2019 Check That! Lab Task 1 (check-worthiness) found in this [repo](https://github.com/apepa/clef2019-factchecking-task1).
+The scripts used are adapted from the ones for the CLEF2019 Check That! Lab Task 1 (check-worthiness) found in this [repo](https://github.com/apepa/clef2019-factchecking-task1).
 
 ## Licensing
 
