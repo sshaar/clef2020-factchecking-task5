@@ -13,7 +13,7 @@ __Table of contents:__
 * [Evaluation Results](#evaluation-results)
 * [List of Versions](#list-of-versions)
 * [Contents of the Repository](#contents-of-the-repository)
-* [Task Description](#task-description)
+* [Task Definition](#task-definition)
 * [Data Format](#data-format)
 * [Results File Format](#results-file-format)
 * [Format checker](#format-checker)
