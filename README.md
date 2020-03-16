@@ -1,19 +1,19 @@
 # CLEF2020-CheckThat! Task 5
 This repository contains the _dataset_ for the [CLEF2020-CheckThat! task 5](https://sites.google.com/view/clef2020-checkthat/tasks/tasks-1-5-check-worthiness?authuser=0).
 
-For information about the previous edition of the shared task, refer to [CLEF2019-CheckThat!](http://alt.qcri.org/clef2019-factcheck/) and [CLEF2018-CheckThat!](http://alt.qcri.org/clef2018-factcheck/).
+For information about the previous edition of the shared task, refer to [CLEF2019-CheckThat!](https://sites.google.com/view/clef2019-checkthat/task-1-check-worthiness?authuser=0) and [CLEF2018-CheckThat!](http://alt.qcri.org/clef2018-factcheck/).
 
 It also contains the _format checker, scorer and baselines_ for the task.
 
 ````
 FCPD corpus for the CLEF-2020 LAB on "Automatic Identification and Verification of Claims"
-Version 1.0: March ?, 2020 (Data and Baseline Resealse)
+Version 1.0: March 16, 2020 (Data and Baseline Resealse)
 ````
 
 This file contains the basic information regarding the CLEF2020-CheckThat! Task 5
 on Check-Worthiness estimation dataset provided for the CLEF2020-CheckThat Lab
 on "Automatic Identification and Verification of Claims".
-The current version (1.0, March ?, 2020) corresponds to the release of a 
+The current version (1.0, March 16, 2020) corresponds to the release of a 
 part of the training data set.
 The test set will be provided in future versions.
 All changes and updates on these data sets and tools are reported in Section 1 of this document.
@@ -22,7 +22,7 @@ __Table of contents:__
 * [Evaluation Results](#evaluation-results)
 * [List of Versions](#list-of-versions)
 * [Contents of the Distribution v1.0](#contents-of-the-distribution-v10)
-* [Subtasks](#subtasks)
+* [Task 5](#task-5--debate-check-worthiness)
 * [Data Format](#data-format)
 * [Results File Format](#results-file-format)
 * [Format checkers](#format-checkers)
@@ -40,7 +40,7 @@ TBA
 
 ## List of Versions
 
-* __v1.0 [2020/03/?]__ -  data. The training data for task 5 contains 50 fact-checked documents - debates, speeches, press conferences, etc, analysed by politifact.com. 
+* __v1.0 [2020/03/16]__ -  data. The training data for task 5 contains 50 fact-checked documents - debates, speeches, press conferences, etc. 
 
 ## Contents of the Distribution v1.0
 
@@ -56,9 +56,11 @@ We provide the following files:
   - [working_notes/clef19_checkthat.bib](working_notes/clef19_checkthat.bib) - Bibliography of 2019 overview and participants' papers.
   - [working_notes/clef18_checkthat.bib](working_notes/clef18_checkthat.bib) - Bibliography of 2018 overview and participants' papers.
   
-## Subtask 5 : __Debate Check-Worthiness__. 
+## Task 5 : __Debate Check-Worthiness__. 
 
-Predict which claim in a political debate should be prioritized for fact-checking. In particular, given a debate, speech or a press conference the goal is to produce a ranked list of its sentences based on their worthiness for fact checking.
+Predict which claim in a political debate should be prioritized for fact-checking. In particular, given a debate, speech or a press conference the goal is to produce a ranked list of its sentences based on their worthiness for fact checking. 
+
+NOTE: You may use data from past years version of this task. 
 
 ## Data Format
 
@@ -121,6 +123,8 @@ To launch it run:
 Its output can be seen in [run_format_checker_out.txt](format_checker/run_format_checker_out.txt)
 The checks for completness (if the result files contain all lines / claims) is NOT handled by the format checkers, because they receive only the results file and not the gold one.
 
+The scripts used are obtained from CLEF2019 Check That! Lab Task 1 (check-worthiness) found in this [repo](https://github.com/apepa/clef2019-factchecking-task1).
+
 ## Scorers 
 
 Launch the scorers for the task as follows:
@@ -134,6 +138,8 @@ The scorers call the format checkers for the task to verify the output is proper
 They also handle checking if the provided predictions file contains all lines / claims from the gold one.
 
 `run_scorer.sh` provides examples on using the scorers and the results can be viewed in the [run_scorer_out.txt](scorer/run_scorer_out.txt) file.
+
+The scripts used are obtained from CLEF2019 Check That! Lab Task 1 (check-worthiness) found in this [repo](https://github.com/apepa/clef2019-factchecking-task1).
 
 ### Evaluation metrics
 
@@ -152,12 +158,14 @@ The performance of both baselines will be displayed:
 Random Baseline AVGP: 0.02098366142405398
 Ngram Baseline AVGP: 0.09456735615609717
 
+The scripts used are obtained from CLEF2019 Check That! Lab Task 1 (check-worthiness) found in this [repo](https://github.com/apepa/clef2019-factchecking-task1).
+
 ## Licensing
 
   These datasets are free for general research use.
 
 ## Citation
-* If you want to cite any of the papers from the previous edition of the task, refer to this file [working_notes/clef18_checkthat.bib](working_notes/clef18_checkthat.bib). [[PROCEEDINGS WITH ALL PAPERS from 2018]](http://ceur-ws.org/Vol-2125/) or [working_notes/clef19_checkthat.bib](working_notes/clef19_checkthat.bib). [[PROCEEDINGS WITH ALL PAPERS from 2019]](http://ceur-ws.org/Vol-2125/)
+* If you want to cite any of the papers from the previous edition of the task, refer to this file [working_notes/clef19_checkthat.bib](working_notes/clef19_checkthat.bib) [[PROCEEDINGS WITH ALL PAPERS from 2019]](http://ceur-ws.org/Vol-2125/) or [working_notes/clef18_checkthat.bib](working_notes/clef18_checkthat.bib) [[PROCEEDINGS WITH ALL PAPERS from 2018]](http://ceur-ws.org/Vol-2125/).
 
 
 ## Credits
