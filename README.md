@@ -115,7 +115,7 @@ To launch it run:
 Its output can be seen in [run_format_checker_out.txt](format_checker/run_format_checker_out.txt). 
 Note that the checker can not verify whether the prediction file you submit contain all lines / claims), because it does not have access to the corresponding gold file.
 
-The script used is adapted from the one for the CLEF2019 Check That! Lab Task 1 (check-worthiness) found in this [repo](https://github.com/apepa/clef2019-factchecking-task1).
+The script used is adapted from the one for the [CLEF2019 Check That! Lab Task 1 (check-worthiness)](https://github.com/apepa/clef2019-factchecking-task1).
 
 ## Scorer 
 
@@ -131,7 +131,7 @@ It also handles checking if the provided predictions file contains all lines / c
 
 `run_scorer.sh` provides examples on using the scorers and the results can be viewed in the [run_scorer_out.txt](scorer/run_scorer_out.txt) file.
 
-The script used is adapted from the one for the CLEF2019 Check That! Lab Task 1 (check-worthiness) found in this [repo](https://github.com/apepa/clef2019-factchecking-task1).
+The script used is adapted from the one for the [CLEF2019 Check That! Lab Task 1 (check-worthiness)](https://github.com/apepa/clef2019-factchecking-task1).
 
 ### Evaluation metrics
 
@@ -150,7 +150,7 @@ The performance of both baselines will be displayed:<br/>
 Random Baseline AVGP: 0.02098366142405398<br/>
 Ngram Baseline AVGP: 0.09456735615609717<br/>
 
-The scripts used are adapted from the ones for the CLEF2019 Check That! Lab Task 1 (check-worthiness) found in this [repo](https://github.com/apepa/clef2019-factchecking-task1).
+The scripts used are adapted from the ones for the [CLEF2019 Check That! Lab Task 1 (check-worthiness)](https://github.com/apepa/clef2019-factchecking-task1).
 
 ## Licensing
 
