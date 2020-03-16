@@ -62,9 +62,7 @@ Predict which claim in a political debate should be prioritized for fact-checkin
 
 ## Data Format
 
-The datasets are text files with the information TAB separated. The text encoding is UTF-8.
-
-### Task 5:
+The input files are TAB separated csv files with three fields:
 
 > line_number <TAB> speaker <TAB> text <TAB> label
 
@@ -74,6 +72,7 @@ Where: <br>
 * text: a sentence that the speaker said <br/>
 * label: 1 if this sentence is to be fact-checked, and 0 otherwise 
 
+The text encoding is UTF-8.
 
 Example:
 
@@ -91,7 +90,7 @@ Example:
 ## __Results File Format__: 
 
 For this task, the expected results file is a list of claims with the estimated score for check-worthiness. 
-    Each line contains a tab-separated line with:
+    Each row contains two tab-separated fields:
 >line_number <TAB> score
 
 Where _line_number_ is the number of the claim in the debate and _score_ is a number, indicating the priority of the claim for fact-checking. For example:
