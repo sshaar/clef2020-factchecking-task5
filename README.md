@@ -7,13 +7,13 @@ It also contains the _format checker, scorer and baselines_ for the task.
 
 ````
 FCPD corpus for the CLEF-2020 LAB on "Automatic Identification and Verification of Claims"
-Version 1.0: March ?, 2020 (Data and Baseline Resealse)
+Version 1.0: March 16, 2020 (Data and Baseline Resealse)
 ````
 
 This file contains the basic information regarding the CLEF2020-CheckThat! Task 5
 on Check-Worthiness estimation dataset provided for the CLEF2020-CheckThat Lab
 on "Automatic Identification and Verification of Claims".
-The current version (1.0, March ?, 2020) corresponds to the release of a 
+The current version (1.0, March 16, 2020) corresponds to the release of a 
 part of the training data set.
 The test set will be provided in future versions.
 All changes and updates on these data sets and tools are reported in Section 1 of this document.
@@ -40,7 +40,7 @@ TBA
 
 ## List of Versions
 
-* __v1.0 [2020/03/?]__ -  data. The training data for task 5 contains 50 fact-checked documents - debates, speeches, press conferences, etc, analysed by politifact.com. 
+* __v1.0 [2020/03/16]__ -  data. The training data for task 5 contains 50 fact-checked documents - debates, speeches, press conferences, etc, analysed by politifact.com. 
 
 ## Contents of the Distribution v1.0
 
@@ -158,7 +158,7 @@ Ngram Baseline AVGP: 0.09456735615609717
   These datasets are free for general research use.
 
 ## Citation
-* If you want to cite any of the papers from the previous edition of the task, refer to this file [working_notes/clef18_checkthat.bib](working_notes/clef18_checkthat.bib). [[PROCEEDINGS WITH ALL PAPERS from 2018]](http://ceur-ws.org/Vol-2125/) or [working_notes/clef19_checkthat.bib](working_notes/clef19_checkthat.bib). [[PROCEEDINGS WITH ALL PAPERS from 2019]](http://ceur-ws.org/Vol-2125/)
+* If you want to cite any of the papers from the previous edition of the task, refer to this file [working_notes/clef19_checkthat.bib](working_notes/clef19_checkthat.bib). [[PROCEEDINGS WITH ALL PAPERS from 2019]](http://ceur-ws.org/Vol-2125/) or [working_notes/clef18_checkthat.bib](working_notes/clef18_checkthat.bib). [[PROCEEDINGS WITH ALL PAPERS from 2018]](http://ceur-ws.org/Vol-2125/).
 
 
 ## Credits
