@@ -22,7 +22,7 @@ __Table of contents:__
 * [Evaluation Results](#evaluation-results)
 * [List of Versions](#list-of-versions)
 * [Contents of the Distribution v1.0](#contents-of-the-distribution-v10)
-* [Task 5](#task-5)
+* [Task 5](#task-5--debate-check-worthiness)
 * [Data Format](#data-format)
 * [Results File Format](#results-file-format)
 * [Format checkers](#format-checkers)
