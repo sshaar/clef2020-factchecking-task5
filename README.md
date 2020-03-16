@@ -40,7 +40,7 @@ TBA
 
 ## List of Versions
 
-* __v1.0 [2020/03/16]__ -  data. The training data for task 5 contains 50 fact-checked documents - debates, speeches, press conferences, etc, analysed by politifact.com. 
+* __v1.0 [2020/03/16]__ -  data. The training data for task 5 contains 50 fact-checked documents - debates, speeches, press conferences, etc. 
 
 ## Contents of the Distribution v1.0
 
