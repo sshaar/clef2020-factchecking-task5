@@ -141,7 +141,7 @@ We also report R-Precision, Average Precision, Recipocal Rank, Precision@k and m
 ## Baselines
 
 The [baselines](/baselines) module contains a random and a simple ngram baseline for the task.
-To launch the baseline script use the following:
+To launch the baseline script you need to install packages dependencies found in [requirement.txt](requirement.txt) before you run the following command:
 
 > python3 baselines/baselines.py  <br/>
 
