@@ -31,6 +31,8 @@ TBA
 
 ## List of Versions
 
+* __v2.0 [2020/05/11]__ -  Update trianing data labels. 
+
 * __v1.0 [2020/03/16]__ -  data. The training data for task 5 contains 50 fact-checked documents - debates, speeches, press conferences, etc. 
 
 ## Contents of the Repository
@@ -39,7 +41,7 @@ We provide the following files:
 
 - Main folder: [data](data)
   - Subfolder [/training](data/training) <br/>
-   Contains all training data released with the version 1.0
+   Contains all training data released with the version 2.0
 
   - [README.md](README.md) <br/>
     this file
