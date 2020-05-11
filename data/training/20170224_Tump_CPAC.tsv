@@ -98,13 +98,13 @@
 98	SYSTEM	[Applause]	0
 99	Donald Trump	I don't think it'll ever happen again.	0
 100	Donald Trump	And I want you all to know that we are fighting the fake news.	0
-101	Donald Trump	It's fake, phony, fake.	1
-102	SYSTEM	[Applause]	1
-103	Donald Trump	A few days ago I called the fake news the enemy of the people.	1
+101	Donald Trump	It's fake, phony, fake.	0
+102	SYSTEM	[Applause]	0
+103	Donald Trump	A few days ago I called the fake news the enemy of the people.	0
 104	Donald Trump	And they are.	0
 105	Donald Trump	They are the enemy of the people.	0
 106	SYSTEM	[Applause]	0
-107	Donald Trump	Because they have no sources, they just make 'em up when there are none.	1
+107	Donald Trump	Because they have no sources, they just make 'em up when there are none.	0
 108	Donald Trump	I saw one story recently where they said, "Nine people have confirmed."	0
 109	Donald Trump	There're no nine people.	0
 110	Donald Trump	I don't believe there was one or two people.	0
@@ -237,7 +237,7 @@
 237	SYSTEM	[Applause, Chanting "USA"]	0
 238	Donald Trump	For too long, we've traded away our jobs to other countries.	0
 239	Donald Trump	So terrible.	0
-240	Donald Trump	We've defended other nations' borders while leaving ours wide open, anybody can come in.	1
+240	Donald Trump	We've defended other nations' borders while leaving ours wide open, anybody can come in.	0
 241	Donald Trump	We're going to build a wall, don't worry about it.	0
 242	Donald Trump	We're building the wall.	0
 243	Donald Trump	We're building the wall.	0
