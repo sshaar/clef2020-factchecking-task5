@@ -52,11 +52,11 @@ We provide the following files:
 The "Check-worthines for debates" task is defined as "predicting which claim in a political debate should be prioritized for fact-checking". 
 In particular, given a debate, speech or a press conference the goal is to produce a ranked list of its sentences based on their worthiness for fact checking. 
 
-NOTE: You may use data from [past years versions](#previous-editions) of this task. 
+**NOTE:** You can use data from the CLEF-2018 and the CLEF-2019 editions of this task
 
 ## Data Format
 
-The input files are TAB separated csv files with four fields:
+The input files are TAB-separated CSV files with four fields:
 
 > line_number <TAB> speaker <TAB> text <TAB> label
 
@@ -106,14 +106,14 @@ Otherwise the scorer will return an error and no score will be computed.
 
 ## Format checker
 
-The checker for the subtask is located in the [format_checker](format_checker) module of the project.
+The checker for the task is located in the [format_checker](format_checker) module of the project.
 The format checker verifies that your generated results file complies with the expected format.
 To launch it run: 
 > python3 format_checker/main.py --pred_file_path=<path_to_your_results_file> <br/>
 
 `run_format_checker.sh` includes examples of the output of the checker when dealing with an ill-formed results file. 
 Its output can be seen in [run_format_checker_out.txt](format_checker/run_format_checker_out.txt). 
-Note that the checker can not verify whether the prediction file you submit contain all lines / claims), because it does not have access to the corresponding gold file.
+Note that the checker cannot verify whether the prediction file you submit contain all lines / claims), because it does not have access to the corresponding gold file.
 
 The script used is adapted from the one for the [CLEF2019 Check That! Lab Task 1 (check-worthiness)](https://github.com/apepa/clef2019-factchecking-task1).
 
@@ -135,14 +135,16 @@ The script used is adapted from the one for the [CLEF2019 Check That! Lab Task 1
 
 ### Evaluation metrics
 
-**The official metric for task5, that will be used for the competition ranking, is the Mean Average Precision (MAP)**. 
-We also report R-Precision, Average Precision, Recipocal Rank, Precision@k and means of these over multiple debates.
+**The official evaluation measure is Mean Average Precision (MAP)**. 
+We also report R-Precision, Average Precision, Recipocal Rank, Precision@k and averaged over multiple debates.
 
 ## Baselines
 
 The [baselines](/baselines) module contains a random and a simple ngram baseline for the task.
-To launch the baseline script use the following:
+To launch the baseline script you need to install packages dependencies found in [requirement.txt](requirement.txt) using the following:
+> pip3 install -r requirement.txt <br/>
 
+To launch the baseline script run the following:
 > python3 baselines/baselines.py  <br/>
 
 Both of the baselines will be trained on all but the latest 20% of the debates as they are used as the dev dataset.
@@ -170,8 +172,6 @@ Task 5 Organizers:
 * Shaden Shaar, Qatar Computing Research Institute, HBKU <br/>
 
 * Giovanni Da San Martino, Qatar Computing Research Institute, HBKU <br/>
-
-* Pepa Atanasova, University of Copenhagen <br/>
 
 * Preslav Nakov, Qatar Computing Research Institute, HBKU <br/>
 
