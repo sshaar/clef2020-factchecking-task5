@@ -4,7 +4,7 @@ It also contains the _format checker, scorer and baselines_ for the task.
 
 ````
 FCPD corpus for the CLEF-2020 LAB on "Automatic Identification and Verification of Claims"
-Version 1.0: March 16, 2020 (Data and Baseline Release)
+Version 2.0: May 11, 2020 (Data and Baseline Release)
 ````
 
 The task is part of the CLEF2020-CheckThat Lab on "Automatic Identification and Verification of Claims". The current version includes the training dataset, evaluation scores and baselines. The test set will be provided in future versions. 
