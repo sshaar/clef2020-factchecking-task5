@@ -31,7 +31,7 @@ TBA
 
 ## List of Versions
 
-* __v2.0 [2020/05/11]__ -  Update trianing data labels. 
+* __2.0 [2020/05/11]__ - Updated some labels in the training data.
 
 * __v1.0 [2020/03/16]__ -  data. The training data for task 5 contains 50 fact-checked documents - debates, speeches, press conferences, etc. 
 
