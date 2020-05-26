@@ -4,10 +4,10 @@ It also contains the _format checker, scorer and baselines_ for the task.
 
 ````
 FCPD corpus for the CLEF-2020 LAB on "Automatic Identification and Verification of Claims"
-Version 2.0: May 11, 2020 (Data and Baseline Release)
+Version 3.0: May 25, 2020 (Data, Baseline, and input-Test Release)
 ````
 
-The task is part of the CLEF2020-CheckThat Lab on "Automatic Identification and Verification of Claims". The current version includes the training dataset, evaluation scores and baselines. The test set will be provided in future versions. 
+The task is part of the CLEF2020-CheckThat Lab on "Automatic Identification and Verification of Claims". The current version includes the training dataset, evaluation scores and baselines. The test released with current version.
 
 __Table of contents:__
 * [Evaluation Results](#evaluation-results)
@@ -31,6 +31,8 @@ TBA
 
 ## List of Versions
 
+* __3.0 [2020/05/26]__ - Input test data released
+
 * __2.0 [2020/05/11]__ - Updated some labels in the training data.
 
 * __v1.0 [2020/03/16]__ -  data. The training data for task 5 contains 50 fact-checked documents - debates, speeches, press conferences, etc. 
@@ -48,6 +50,10 @@ We provide the following files:
   
   - [working_notes/clef19_checkthat.bib](working_notes/clef19_checkthat.bib) - Bibliography of 2019 overview and participants' papers.
   - [working_notes/clef18_checkthat.bib](working_notes/clef18_checkthat.bib) - Bibliography of 2018 overview and participants' papers.
+
+- Main folder: [test-input](test-input)
+  - [test-input.zip](test-input/test-input.zip) <br/>
+    File containing 20 debates that will be used for testing contestents' models.
   
 ## Task Definition 
 
