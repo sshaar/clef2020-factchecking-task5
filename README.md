@@ -7,7 +7,7 @@ FCPD corpus for the CLEF-2020 LAB on "Automatic Identification and Verification 
 Version 3.0: May 25, 2020 (Data, Baseline, and input-Test Release)
 ````
 
-The task is part of the CLEF2020-CheckThat Lab on "Automatic Identification and Verification of Claims". The current version includes the training dataset, evaluation scores and baselines. The test set will be provided in future versions. 
+The task is part of the CLEF2020-CheckThat Lab on "Automatic Identification and Verification of Claims". The current version includes the training dataset, evaluation scores and baselines. The test released with current version.
 
 __Table of contents:__
 * [Evaluation Results](#evaluation-results)
