@@ -1,4 +1,5 @@
-This folder contains a zip file [test-input.zip](test-input.zip) with the test files without the gold labels. 
+This folder contains a ZIP file [test-input.zip](test-input.zip) with the test files without the gold labels. 
+<BR>
 There are 20 political debates/speeches that will be used to test the models. 
 <br>
 Their format is identical to that in the training set, except that the fourth column is missing.  
@@ -23,9 +24,9 @@ Where __filename__ is in [20160303_GOP_michigan, 20180426_Trump_Fox_Friends, 201
 20170713_Trump_Roberston_interiew, 20180821_Trump_Charleston]
 
 
-The scores were computed using the random baseline given in the [baseline script](../baselines/baseline.py).
+The scores in the example submission were computed using the random baseline given in the [baseline script](../baselines/baseline.py).
 
-As mentioned in the main page in the [Results File Format section](https://github.com/sshaar/clef2020-factchecking-task5#results-file-format) the submission files should have the same format as those used during training: tab-separated id and 
+As explained in the main page in the [Results File Format section](https://github.com/sshaar/clef2020-factchecking-task5#results-file-format) the submission files should have the same format as those used during training: tab-separated ID and 
 judgment; one instance per line. From the example 20151219_3_dem.tsv:
 
 > [...] <br>
@@ -35,16 +36,14 @@ judgment; one instance per line. From the example 20151219_3_dem.tsv:
 > 6	0.4049341374504143 <br>
 > [...]
 
-We have implemented some [checkers](../format_checker/main.py), but it is still the responsibility of the participants to double-check that 
-their submissions are correct. <br>
+We have implemented some [checkers](../format_checker/main.py), but it is still the responsibility of the participants to double-check that their submissions are correct. <br>
 
 You should submit the zipped file via the [submission link](https://docs.google.com/forms/d/e/1FAIpQLSfsBfruzsYLg9mngQmLkKjBeyazxeAD-uknonXqJhVoozsKDg/viewform). 
 <br>
-You have to submit **ONE** primary submission and you could submit up to **TWO** contrastive submissions. 
+You have to submit **ONE** primary submission, and optionally you could submit up to **TWO** contrastive submissions. 
 <br>
-If make multiple primary/contrastive 1/contrastive 2 submissions, only the latest ones will be considered.
+If you make multiple primary/contrastive 1/contrastive 2 submissions, only the latest one from each type will be considered.
 <br>
-The official ranking will be based on the primary submission
+The official ranking will be based on the primary submission.
 
-As a reminder, participants can submit predictions more than once, but only the last one before the deadline 
-**(5 June 2020)** will be evaluated and considered as official. 
+As a reminder, the participants can submit predictions more than once, but only the last one before the deadline **(5 June 2020)** will be evaluated and considered as official. 
