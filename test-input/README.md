@@ -28,20 +28,23 @@ The scores were computed using the random baseline given in the [baseline script
 As mentioned in the main page in the [Results File Format section](https://github.com/sshaar/clef2020-factchecking-task5#results-file-format) the submission files should have the same format as those used during training: tab-separated id and 
 judgment; one instance per line. From the example 20151219_3_dem.tsv:
 
-> 1	0.8444218515250481 <br>
-> 2	0.7579544029403025 <br>
+> [...] <br>
 > 3	0.420571580830845 <br>
 > 4	0.25891675029296335 <br>
+> 5	0.5112747213686085 <br>
+> 6	0.4049341374504143 <br>
 > [...]
 
-We have implemented some checkers, but it is still the responsibility of the participants to double-check that 
+We have implemented some [checkers](../format_checker/main.py), but it is still the responsibility of the participants to double-check that 
 their submissions are correct. <br>
 
 You should submit the zipped file via the [submission link](https://docs.google.com/forms/d/e/1FAIpQLSfsBfruzsYLg9mngQmLkKjBeyazxeAD-uknonXqJhVoozsKDg/viewform). 
 <br>
 You have to submit **ONE** primary submission and you could submit up to **TWO** contrastive submissions. 
 <br>
-If there are more than one primary submission made the latest submission will be considered the primary by default. 
+If make multiple primary/contrastive 1/contrastive 2 submissions, only the latest ones will be considered.
+<br>
+The official ranking will be based on the primary submission
 
 As a reminder, participants can submit predictions more than once, but only the last one before the deadline 
 **(5 June 2020)** will be evaluated and considered as official. 
