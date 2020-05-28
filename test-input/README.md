@@ -10,8 +10,7 @@ For instance, 20160303_GOP_michigan.tsv looks like this:
 > 4	BAIER	For tonight's debate we're partnering with Facebook.<br>
 > [...]
 
-The folder [test-input](./) contains also a submission_instance.zip file that is an example of what we 
-expect the participants to submit: <br>
+The folder [test-input](./) contains also a [submission_instance.zip](submission_instance.zip) file that is an example of what we expect the participants to submit: <br>
 
 * Twenty prediction files: 		__filename__.tsv <br>
 
@@ -24,10 +23,11 @@ Where __filename__ is in [20160303_GOP_michigan, 20180426_Trump_Fox_Friends, 201
 20170713_Trump_Roberston_interiew, 20180821_Trump_Charleston]
 
 
+The scores were computed using the random baseline given in the [baseline script](../baselines/baseline.py).
+
 As mentioned in the main page in the [Results File Format section](https://github.com/sshaar/clef2020-factchecking-task5#results-file-format) the submission files should have the same format as those used during training: tab-separated id and 
 judgment; one instance per line. From the example 20151219_3_dem.tsv:
 
-> [...] <br>
 > 1	0.8444218515250481 <br>
 > 2	0.7579544029403025 <br>
 > 3	0.420571580830845 <br>
