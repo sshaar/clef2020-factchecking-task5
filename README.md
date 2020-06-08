@@ -4,10 +4,10 @@ It also contains the _format checker, scorer and baselines_ for the task.
 
 ````
 FCPD corpus for the CLEF-2020 LAB on "Automatic Identification and Verification of Claims"
-Version 3.0: May 25, 2020 (Data, Baseline, and input-Test Release)
+Version 4.0: Jun 8, 2020 (Data, Baseline, and input-Test Release)
 ````
 
-The task is part of the CLEF2020-CheckThat Lab on "Automatic Identification and Verification of Claims". The current version includes the training dataset, evaluation scores, baselines and the test files (without gold labels).
+The task is part of the CLEF2020-CheckThat Lab on "Automatic Identification and Verification of Claims". The current version includes the training dataset, evaluation scores, baselines and the test files (with gold labels).
 
 __Table of contents:__
 * [Evaluation Results](#evaluation-results)
@@ -31,6 +31,8 @@ TBA
 
 ## List of Versions
 
+* __4.0 [2020/06/08]__ - Test data with gold labels released
+
 * __3.0 [2020/05/26]__ - Input test data released
 
 * __2.0 [2020/05/11]__ - Updated some labels in the training data.
@@ -44,6 +46,9 @@ We provide the following files:
 - Main folder: [data](data)
   - Subfolder [/training](data/training) <br/>
    Contains all training data released with the version 2.0
+
+  - Subfolder [/test](data/test.zip) <br/>
+   Contains all test data wtih gold labels
 
   - [README.md](README.md) <br/>
     this file
