@@ -27,7 +27,7 @@ __Table of contents:__
 
 ## Evaluation Results
 
-You can find the results in the spreadsheet, https://docs.google.com/spreadsheets/d/1-piLMaTvLgK3pcMsUnAlrw-z0_a7hlhTYAC-2cCxMvY/edit?usp=sharing.
+You can find the results in this spreadsheet, https://tinyurl.com/y9sjooxo.
 
 ## List of Versions
 
