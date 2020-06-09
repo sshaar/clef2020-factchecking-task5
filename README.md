@@ -31,7 +31,7 @@ You can find the results in this spreadsheet, https://tinyurl.com/y9sjooxo.
 
 ## List of Versions
 
-* __4.0 [2020/06/08]__ - Test data with gold labels released
+* __4.0 [2020/06/08]__ - Official test results and gold labels released.
 
 * __3.0 [2020/05/26]__ - Input test data released
 
@@ -44,11 +44,12 @@ You can find the results in this spreadsheet, https://tinyurl.com/y9sjooxo.
 We provide the following files:
 
 - Main folder: [data](data)
-  - Subfolder [/training](data/training) <br/>
-   Contains all training data released with the version 2.0
-
-  - Subfolder [/test](data/test.zip) <br/>
-   Contains all test data wtih gold labels
+  - Subfolder: [v1](data/v1.zip)
+    - Subfolder [/training](data/v1.zip) <br/>
+    Contains all training data released with the version 1.0
+  - Subfolder: [v2](data/v2.zip)
+    - Subfolder [/training](data/v2.zip) <br/>
+    Contains all training data released with the version 2.0
 
   - [README.md](README.md) <br/>
     this file
@@ -59,6 +60,8 @@ We provide the following files:
 - Main folder: [test-input](test-input)
   - [test-input.zip](test-input/test-input.zip) <br/>
     File containing 20 debates that will be used for testing contestents' models.
+  - [test-gold.zip](test-input/test-gold.zip) <br/>
+    File containing 20 debates that is  used for testing with gold labels.
   
 ## Task Definition 
 
