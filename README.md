@@ -27,7 +27,7 @@ __Table of contents:__
 
 ## Evaluation Results
 
-TBA
+You can find the results in the spreadsheet, https://docs.google.com/spreadsheets/d/1-piLMaTvLgK3pcMsUnAlrw-z0_a7hlhTYAC-2cCxMvY/edit?usp=sharing.
 
 ## List of Versions
 
