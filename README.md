@@ -24,7 +24,7 @@ __Table of contents:__
 * [Citation](#citation)
 * [Previos Editions](#previous-editions)
 * [Credits](#credits)
-* Citation(#citation)
+* [Citation](#citation)
 
 ## Evaluation Results
 
